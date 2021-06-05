@@ -11,4 +11,6 @@ RUN rm exaplus.tar.gz
 
 EXPOSE 8563
 
-CMD ["init-sc"]
+RUN chmod 777 startup.sh
+
+ENTRYPOINT ["/exa/startup.sh"]
