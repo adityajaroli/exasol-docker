@@ -18,7 +18,7 @@ Very useful to write BDDs for the service which depends on the exasol. These can
 
 
 **How it works?**
-The "init-sc" command starts the exasol db as single node cluster and allocates the bare minimum hardware/memory to it. This DB is an temporary db i.e. once the container is killed, all the data in it is also gone. One can mount the DB data drive on the host to make it permanent. 
+> The "init-sc" command starts the exasol db as single node cluster and allocates the bare minimum hardware/memory to it. This DB is an temporary db i.e. once the container is killed, all the data in it is also gone. One can mount the DB data drive on the host to make it permanent. 
 
 As part of docker image building, EXAPlus is downloaded and made it available to connect to the Exasol DB via command line. 
 
