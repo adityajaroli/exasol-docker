@@ -1,5 +1,5 @@
 #!/bin/bash
-sh /usr/opt/EXASuite-7/EXAClusterOS-7.0.10/docker/entrypoint.sh init-sc &
+sh /usr/opt/EXASuite-7/EXAClusterOS-$EXA_OS_VERSION/docker/entrypoint.sh init-sc &
 
 echo "Waiting for 45 seconds to let the exasol cluster go up"
 sleep 45

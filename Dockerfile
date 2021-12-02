@@ -1,4 +1,4 @@
-FROM exasol/docker-db:latest
+FROM exasol/docker-db:latest-7.0
 
 WORKDIR /exa
 COPY . .
